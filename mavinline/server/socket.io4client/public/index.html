@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="english">
+<head>
+  <meta charset="UTF-8">
+  <title>清洁机web控制台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--body onselectstart ='return false' onselect='document.selection.empty()'-->
+<body>
+  <div class="pages">
+    <div class="chat page">
+      <div class="commandArea">
+        <div class="chatArea">
+          <ul class="messages"></ul>
+        </div>
+        <input class="inputMessage" placeholder="输入命令..."/>
+      </div>
+      <div id="allmap" class="displayMap">
+
+      </div>
+      <div class="displayStatus">
+        <div class="systemStatus status">
+          <li class="status-log systemStatus">系统状态</li>
+          <div>
+            <label for="voltage">电压 / V:</label>
+            <input id="voltage" value="0" / >
+          </div>
+          <br>
+          <label for="current">电流 / mA:</label>
+          <input id="current" value="0" / >
+        </div>
+        <div class="servosStatus status">
+          <li class="status-log servosStatus">Distance</li>
+          <label for="distance-Front">Front:</label>
+          <input id="distance-Front" value="-" / >
+          <br>
+          <label for="distance-Rear">Rear:</label>
+          <input id="distance-Rear" value="-" / >
+          <br>
+          <label for="distance-Left">Left:</label>
+          <input id="distance-Left" value="-" / >
+          <br>
+          <label for="distance-Right">Right:</label>
+          <input id="distance-Right" value="-" / >
+          <br>
+        </div>
+        <div class="rcChannelsStatus status">
+          <li class="status-log rcChannelsStatus">RC值</li>
+          <label for="rcchannel1">通道1:</label>
+          <input id="rcchannel1" value="0" / >
+          <br>
+          <label for="rcchannel2">通道2:</label>
+          <input id="rcchannel2" value="0" / >
+          <br>
+          <label for="rcchannel3">通道3:</label>
+          <input id="rcchannel3" value="0" / >
+          <br>
+          <label for="rcchannel4">通道4:</label>
+          <input id="rcchannel4" value="0" / >
+          <br>
+          <label for="rcchannel5">通道5:</label>
+          <input id="rcchannel5" value="0" / >
+          <br>
+          <label for="rcchannel6">通道6:</label>
+          <input id="rcchannel6" value="0" / >
+          <br>
+          <label for="rcchannel7">通道7:</label>
+          <input id="rcchannel7" value="0" / >
+          <br>
+          <label for="rcchannel8">通道8:</label>
+          <input id="rcchannel8" value="0" / >
+        </div>
+        <div class="gpsStatus status">
+          <li class="status-log gpsStatus">GPS数据</li>
+          <label for="gpsLon">经度:</label>
+          <input id="gpsLon" value="0" / >
+          <br>
+          <label for="gpsLat">维度:</label>
+          <input id="gpsLat" value="0" / >
+          <br>
+          <label for="gpsHead">航向:</label>
+          <input id="gpsHead" value="0" / >
+          <label for="gpsRelativeAlt">相对高度:</label>
+          <input id="gpsRelativeAlt" value="0" / >
+          <br>
+          <br>
+        </div>
+        <div class="ensorStatus status">
+          <li class="status-log sensorstatus">传感器值</li>
+          <label for="rawImuZacc">Z加速度:</label>
+          <input id="rawImuZacc" value="0" / >
+          <br>
+          <label for="rawImuXacc">X加速度:</label>
+          <input id="rawImuXacc" value="0" / >
+          <br>
+          <label for="rawImuYacc">Y加速度:</label>
+          <input id="rawImuYacc" value="0" / >
+          <br>
+        </div>
+        <div class="attitudeStatus status">
+          <li class="status-log attitudeStatus">Control Pannel</li>
+          <button id='auto_clean_btn' class="control-aircraft">Auto Clean</button>
+          <button id='open_camera_btn' class="control-aircraft">打开摄像头</button>
+          <button id='arm' class="control-aircraft">解除飞机锁定</button>
+          <button id='disarm' class="control-aircraft">锁定飞机</button>
+          <button id='takeoff' class="control-aircraft">起飞</button>
+          <button id='RTL' class="control-aircraft">返航</button>
+          <button id='test' class="control-aircraft">Test</button>
+        </div>
+      </div>
+
+      <div id="live-camera" class="live-camera" style="width: 640px; height: 480px; display:none">
+        <div id="config" hidden='true'>
+          <input id="live-camera-width" value="640" hidden='true' / >
+          <input id="live-camera-height" value="480" hidden='true' / >
+          <input id="live-camera-name" value="aircraft" hidden='true' / >
+        </div>
+        <canvas id="videoCanvas" width="640" height="480">
+          <p>
+              Please use a browser that supports the Canvas Element, like
+              <a href="http://www.google.com/chrome">Chrome</a>,
+              <a href="http://www.mozilla.com/firefox/">Firefox</a>,
+              <a href="http://www.apple.com/safari/">Safari</a> or Internet Explorer 10
+          </p>
+        </canvas>
+      </div>
+
+    </div>
+    <div class="login page">
+      <div class="form">
+        <h3 class="title">管理ID...</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </div>
+  </div>
+
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/socket.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=E199c4148e4693c6fe0df844a5aabd99"></script>
+  <script src="/baidumap.js"></script>
+  <script type="text/javascript">
+    $('.displayStatus input').attr('disabled', 'disabled');
+  </script>
+  <script type="text/javascript" src="jsmpg.js"></script>
+  <script type="text/javascript" src="camera.js"></script>
+
+</body>
+</html>

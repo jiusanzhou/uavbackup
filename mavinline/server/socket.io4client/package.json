@@ -1,0 +1,12 @@
+{
+  "name": "aircraftserver4client",
+  "version": "0.0.1",
+  "description": "Client for aircraft",
+  "main": "index.js",
+  "author": "John",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  }
+}

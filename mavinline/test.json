@@ -1,0 +1,248 @@
+{
+    "SYSTEM_TIME": {
+        "time_unix_usec": "0",
+        "time_boot_ms": "195596"
+    },
+    "RAW_IMU": {
+        "xgyro": "0",
+        "zmag": "345",
+        "ygyro": "0",
+        "xmag": "-205",
+        "zacc": "-979",
+        "xacc": "-37",
+        "yacc": "9",
+        "zgyro": "0",
+        "ymag": "151",
+        "time_usec": "192997278"
+    },
+    "MEMINFO": {
+        "brkval": "0",
+        "freemem": "50560"
+    },
+    "HWSTATUS": {
+        "I2Cerr": "0",
+        "Vcc": "4052"
+    },
+    "SCALED_IMU2": {
+        "xgyro": "-6",
+        "zmag": "262",
+        "ygyro": "11",
+        "xmag": "-270",
+        "zacc": "-986",
+        "time_boot_ms": "195595",
+        "yacc": "8",
+        "zgyro": "2",
+        "ymag": "131",
+        "xacc": "-18"
+    },
+    "SERVO_OUTPUT_RAW": {
+        "servo4_raw": "1100",
+        "servo2_raw": "1100",
+        "servo6_raw": "0",
+        "time_usec": "192997849",
+        "servo1_raw": "1100",
+        "servo8_raw": "0",
+        "servo5_raw": "0",
+        "servo3_raw": "1100",
+        "port": "0",
+        "servo7_raw": "0"
+    },
+    "AHRS": {
+        "error_rp": "0.00232909526676",
+        "error_yaw": "0.00508056022227",
+        "renorm_val": "0.0",
+        "accel_weight": "0.0",
+        "omegaIy": "-0.0034671514295",
+        "omegaIx": "0.00198149681091",
+        "omegaIz": "-0.00117635272909"
+    },
+    "POWER_STATUS": {
+        "Vcc": "4052",
+        "flags": "4",
+        "Vservo": "16"
+    },
+    "ATTITUDE": {
+        "pitchspeed": "0.000305935740471",
+        "yaw": "-2.51087069511",
+        "rollspeed": "-0.000227010808885",
+        "time_boot_ms": "195596",
+        "pitch": "0.00620949920267",
+        "yawspeed": "8.14907252789e-08",
+        "roll": "-0.0350383222103"
+    },
+    "VFR_HUD": {
+        "throttle": "0",
+        "groundspeed": "0.0",
+        "airspeed": "0.0",
+        "heading": "216",
+        "alt": "-0.310000002384",
+        "climb": "0.0"
+    },
+    "GLOBAL_POSITION_INT": {
+        "vx": "0",
+        "lon": "0",
+        "time_boot_ms": "195596",
+        "hdg": "21614",
+        "relative_alt": "-310",
+        "lat": "0",
+        "vy": "0",
+        "alt": "-17000",
+        "vz": "0"
+    },
+    "SYS_STATUS": {
+        "onboard_control_sensors_present": "6421551",
+        "load": "172",
+        "battery_remaining": "99",
+        "errors_count4": "0",
+        "drop_rate_comm": "0",
+        "errors_count2": "0",
+        "errors_count3": "0",
+        "errors_comm": "0",
+        "current_battery": "2",
+        "errors_count1": "0",
+        "onboard_control_sensors_health": "6421551",
+        "onboard_control_sensors_enabled": "6396975",
+        "voltage_battery": "30"
+    },
+    "GPS_RAW_INT": {
+        "fix_type": "1",
+        "cog": "0",
+        "epv": "65535",
+        "lon": "0",
+        "time_usec": "0",
+        "eph": "9999",
+        "satellites_visible": "0",
+        "lat": "0",
+        "alt": "-17000",
+        "vel": "0"
+    },
+    "STATUSTEXT": {
+        "text": "PX4v2 00480024 3034510A 37383933",
+        "severity": "1"
+    },
+    "SCALED_PRESSURE": {
+        "press_abs": "1012.8571167",
+        "time_boot_ms": "195595",
+        "temperature": "3786",
+        "press_diff": "0.0484374985099"
+    },
+    "HEARTBEAT": {
+        "custom_mode": "0",
+        "system_status": "3",
+        "base_mode": "81",
+        "autopilot": "3",
+        "type": "2",
+        "mavlink_version": "3"
+    },
+    "PARAM_VALUE": {
+        "param_count": "417",
+        "param_index": "416",
+        "param_value": "100.0",
+        "param_type": "4",
+        "param_id": "TERRAIN_SPACING"
+    },
+    "MISSION_CURRENT": {
+        "seq": "0"
+    },
+    "RC_CHANNELS_RAW": {
+        "chan4_raw": "1520",
+        "chan2_raw": "1499",
+        "chan6_raw": "1499",
+        "time_boot_ms": "195596",
+        "chan1_raw": "1521",
+        "chan5_raw": "1555",
+        "chan3_raw": "1018",
+        "rssi": "0",
+        "chan7_raw": "1500",
+        "chan8_raw": "1500",
+        "port": "0"
+    },
+    "NAV_CONTROLLER_OUTPUT": {
+        "wp_dist": "0",
+        "nav_pitch": "0.0",
+        "target_bearing": "0",
+        "nav_roll": "0.0",
+        "aspd_error": "0.0",
+        "alt_error": "0.315781235695",
+        "xtrack_error": "0.0",
+        "nav_bearing": "216"
+    }
+}
+
+{"ATTITUDE": {"pitchspeed": "-0.000174485146999", "yaw": "0.00471965130419", "rollspeed": "-0.000708752311766", "time_boot_ms": "287574", "pitch": "0.00962842348963", "yawspeed": "0.00235679233447", "roll": "-0.0376405715942"}, "HEARTBEAT": {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}, "MISSION_CURRENT": {"seq": "0"}, "SCALED_PRESSURE": {"press_abs": "1012.28161621", "time_boot_ms": "287414", "temperature": "3541", "press_diff": "-0.175078123808"}, "GPS_RAW_INT": {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}, "SCALED_IMU2": {"xgyro": "-27", "zmag": "285", "ygyro": "44", "xmag": "491", "zacc": "-986", "time_boot_ms": "287414", "yacc": "6", "zgyro": "8", "ymag": "-8", "xacc": "-9"}, "NAV_CONTROLLER_OUTPUT": {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "0"}, "VFR_HUD": {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "0", "alt": "1.61000001431", "climb": "0.0399999991059"}, "MEMINFO": {"brkval": "0", "freemem": "50560"}, "HWSTATUS": {"I2Cerr": "0", "Vcc": "5357"}, "RADIO_STATUS": {"noise": "66", "remrssi": "164", "rxerrors": "0", "remnoise": "90", "rssi": "168", "fixed": "0", "txbuf": "100"}, "STATUSTEXT": {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}, "BAD_DATA": {}, "SYS_STATUS": {"onboard_control_sensors_present": "6421551", "load": "170", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "9", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22666"}, "RAW_IMU": {"xgyro": "0", "zmag": "277", "ygyro": "0", "xmag": "429", "zacc": "-975", "xacc": "-36", "yacc": "11", "zgyro": "2", "ymag": "-4", "time_usec": "284715937"}, "GLOBAL_POSITION_INT": {"vx": "0", "lon": "0", "time_boot_ms": "287574", "hdg": "27", "relative_alt": "1610", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}, "AHRS": {"error_rp": "0.00817537866533", "error_yaw": "0.00105078332126", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.0176240783185", "omegaIx": "0.00794905330986", "omegaIz": "-0.00461143115535"}, "POWER_STATUS": {"Vcc": "5352", "flags": "37", "Vservo": "24"}, "PARAM_VALUE": {"param_count": "417", "param_index": "263", "param_value": "1000.0", "param_type": "9", "param_id": "CIRCLE_RADIUS"}, "SYSTEM_TIME": {"time_unix_usec": "0", "time_boot_ms": "287414"}, "SERVO_OUTPUT_RAW": {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "284735952", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}, "RADIO": {"noise": "66", "remrssi": "164", "rxerrors": "0", "remnoise": "90", "rssi": "168", "fixed": "0", "txbuf": "100"}, "RC_CHANNELS_RAW": {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1520", "time_boot_ms": "287434", "chan1_raw": "1520", "chan5_raw": "1520", "chan3_raw": "1017", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1519", "port": "0"}}
+ATTITUDE        : {"pitchspeed": "-0.000174485146999", "yaw": "0.00471965130419", "rollspeed": "-0.000708752311766", "time_boot_ms": "287574", "pitch": "0.00962842348963", "yawspeed": "0.00235679233447", "roll": "-0.0376405715942"}
+HEARTBEAT       : {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}
+MISSION_CURRENT : {"seq": "0"}
+SCALED_PRESSURE : {"press_abs": "1012.28161621", "time_boot_ms": "287414", "temperature": "3541", "press_diff": "-0.175078123808"}
+GPS_RAW_INT     : {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}
+SCALED_IMU2     : {"xgyro": "-27", "zmag": "285", "ygyro": "44", "xmag": "491", "zacc": "-986", "time_boot_ms": "287414", "yacc": "6", "zgyro": "8", "ymag": "-8", "xacc": "-9"}
+NAV_CONTROLLER_OUTPUT : {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "0"}
+VFR_HUD         : {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "0", "alt": "1.61000001431", "climb": "0.0399999991059"}
+MEMINFO         : {"brkval": "0", "freemem": "50560"}
+HWSTATUS        : {"I2Cerr": "0", "Vcc": "5357"}
+RADIO_STATUS    : {"noise": "66", "remrssi": "164", "rxerrors": "0", "remnoise": "90", "rssi": "168", "fixed": "0", "txbuf": "100"}
+STATUSTEXT      : {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}
+BAD_DATA        : {}
+SYS_STATUS      : {"onboard_control_sensors_present": "6421551", "load": "170", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "9", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22666"}
+RAW_IMU         : {"xgyro": "0", "zmag": "277", "ygyro": "0", "xmag": "429", "zacc": "-975", "xacc": "-36", "yacc": "11", "zgyro": "2", "ymag": "-4", "time_usec": "284715937"}
+GLOBAL_POSITION_INT : {"vx": "0", "lon": "0", "time_boot_ms": "287574", "hdg": "27", "relative_alt": "1610", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}
+AHRS            : {"error_rp": "0.00817537866533", "error_yaw": "0.00105078332126", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.0176240783185", "omegaIx": "0.00794905330986", "omegaIz": "-0.00461143115535"}
+POWER_STATUS    : {"Vcc": "5352", "flags": "37", "Vservo": "24"}
+PARAM_VALUE     : {"param_count": "417", "param_index": "263", "param_value": "1000.0", "param_type": "9", "param_id": "CIRCLE_RADIUS"}
+SYSTEM_TIME     : {"time_unix_usec": "0", "time_boot_ms": "287414"}
+SERVO_OUTPUT_RAW : {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "284735952", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}
+RADIO           : {"noise": "66", "remrssi": "164", "rxerrors": "0", "remnoise": "90", "rssi": "168", "fixed": "0", "txbuf": "100"}
+RC_CHANNELS_RAW : {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1520", "time_boot_ms": "287434", "chan1_raw": "1520", "chan5_raw": "1520", "chan3_raw": "1017", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1519", "port": "0"}
+
+
+{"ATTITUDE": {"pitchspeed": "0.000866539776325", "yaw": "1.56980836391", "rollspeed": "-0.00129548367113", "time_boot_ms": "534864", "pitch": "0.000681474863086", "yawspeed": "0.00328010879457", "roll": "-0.0461617894471"}, "HEARTBEAT": {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}, "MISSION_CURRENT": {"seq": "0"}, "RAW_IMU": {"xgyro": "0", "zmag": "306", "ygyro": "0", "xmag": "2", "zacc": "-987", "xacc": "-35", "yacc": "23", "zgyro": "3", "ymag": "-432", "time_usec": "531985088"}, "GPS_RAW_INT": {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}, "SCALED_IMU2": {"xgyro": "-32", "zmag": "304", "ygyro": "56", "xmag": "56", "zacc": "-997", "time_boot_ms": "534683", "yacc": "14", "zgyro": "13", "ymag": "-419", "xacc": "-24"}, "NAV_CONTROLLER_OUTPUT": {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "89"}, "VFR_HUD": {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "89", "alt": "3.03999996185", "climb": "0.019999999553"}, "MEMINFO": {"brkval": "0", "freemem": "50560"}, "HWSTATUS": {"I2Cerr": "0", "Vcc": "5352"}, "RADIO_STATUS": {"noise": "65", "remrssi": "144", "rxerrors": "0", "remnoise": "101", "rssi": "140", "fixed": "0", "txbuf": "100"}, "STATUSTEXT": {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}, "AHRS": {"error_rp": "0.00135569332633", "error_yaw": "0.00687358528376", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.027388818562", "omegaIx": "0.013578816317", "omegaIz": "-0.00705341435969"}, "SCALED_PRESSURE": {"press_abs": "1012.10333252", "time_boot_ms": "534683", "temperature": "3928", "press_diff": "-0.353359371424"}, "GLOBAL_POSITION_INT": {"vx": "0", "lon": "0", "time_boot_ms": "534863", "hdg": "8994", "relative_alt": "3040", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}, "SYS_STATUS": {"onboard_control_sensors_present": "6421551", "load": "196", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "4", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22608"}, "POWER_STATUS": {"Vcc": "5347", "flags": "37", "Vservo": "29"}, "PARAM_VALUE": {"param_count": "417", "param_index": "67", "param_value": "30.0", "param_type": "4", "param_id": "RC2_DZ"}, "SYSTEM_TIME": {"time_unix_usec": "0", "time_boot_ms": "534683"}, "SERVO_OUTPUT_RAW": {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "532005110", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}, "RADIO": {"noise": "65", "remrssi": "144", "rxerrors": "0", "remnoise": "101", "rssi": "140", "fixed": "0", "txbuf": "100"}, "RC_CHANNELS_RAW": {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1519", "time_boot_ms": "534703", "chan1_raw": "1520", "chan5_raw": "1521", "chan3_raw": "1018", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1520", "port": "0"}}
+ATTITUDE        : {"pitchspeed": "0.000866539776325", "yaw": "1.56980836391", "rollspeed": "-0.00129548367113", "time_boot_ms": "534864", "pitch": "0.000681474863086", "yawspeed": "0.00328010879457", "roll": "-0.0461617894471"}
+HEARTBEAT       : {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}
+MISSION_CURRENT : {"seq": "0"}
+RAW_IMU         : {"xgyro": "0", "zmag": "306", "ygyro": "0", "xmag": "2", "zacc": "-987", "xacc": "-35", "yacc": "23", "zgyro": "3", "ymag": "-432", "time_usec": "531985088"}
+GPS_RAW_INT     : {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}
+SCALED_IMU2     : {"xgyro": "-32", "zmag": "304", "ygyro": "56", "xmag": "56", "zacc": "-997", "time_boot_ms": "534683", "yacc": "14", "zgyro": "13", "ymag": "-419", "xacc": "-24"}
+NAV_CONTROLLER_OUTPUT : {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "89"}
+VFR_HUD         : {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "89", "alt": "3.03999996185", "climb": "0.019999999553"}
+MEMINFO         : {"brkval": "0", "freemem": "50560"}
+HWSTATUS        : {"I2Cerr": "0", "Vcc": "5352"}
+RADIO_STATUS    : {"noise": "65", "remrssi": "144", "rxerrors": "0", "remnoise": "101", "rssi": "140", "fixed": "0", "txbuf": "100"}
+STATUSTEXT      : {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}
+AHRS            : {"error_rp": "0.00135569332633", "error_yaw": "0.00687358528376", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.027388818562", "omegaIx": "0.013578816317", "omegaIz": "-0.00705341435969"}
+SCALED_PRESSURE : {"press_abs": "1012.10333252", "time_boot_ms": "534683", "temperature": "3928", "press_diff": "-0.353359371424"}
+GLOBAL_POSITION_INT : {"vx": "0", "lon": "0", "time_boot_ms": "534863", "hdg": "8994", "relative_alt": "3040", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}
+SYS_STATUS      : {"onboard_control_sensors_present": "6421551", "load": "196", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "4", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22608"}
+POWER_STATUS    : {"Vcc": "5347", "flags": "37", "Vservo": "29"}
+PARAM_VALUE     : {"param_count": "417", "param_index": "67", "param_value": "30.0", "param_type": "4", "param_id": "RC2_DZ"}
+SYSTEM_TIME     : {"time_unix_usec": "0", "time_boot_ms": "534683"}
+SERVO_OUTPUT_RAW : {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "532005110", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}
+RADIO           : {"noise": "65", "remrssi": "144", "rxerrors": "0", "remnoise": "101", "rssi": "140", "fixed": "0", "txbuf": "100"}
+RC_CHANNELS_RAW : {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1519", "time_boot_ms": "534703", "chan1_raw": "1520", "chan5_raw": "1521", "chan3_raw": "1018", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1520", "port": "0"}
+
+
+{"ATTITUDE": {"pitchspeed": "0.0013861656189", "yaw": "-3.12646150589", "rollspeed": "-0.000575534999371", "time_boot_ms": "1098830", "pitch": "-0.00455742049962", "yawspeed": "0.00294274417683", "roll": "-0.0591513067484"}, "HEARTBEAT": {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}, "MISSION_CURRENT": {"seq": "0"}, "SCALED_PRESSURE": {"press_abs": "1011.65136719", "time_boot_ms": "1098750", "temperature": "4303", "press_diff": "-0.8053124547"}, "GPS_RAW_INT": {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}, "SCALED_IMU2": {"xgyro": "-38", "zmag": "355", "ygyro": "62", "xmag": "-204", "zacc": "-1011", "time_boot_ms": "1098750", "yacc": "26", "zgyro": "14", "ymag": "-34", "xacc": "-26"}, "NAV_CONTROLLER_OUTPUT": {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "180"}, "VFR_HUD": {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "180", "alt": "6.96000003815", "climb": "0.0"}, "MEMINFO": {"brkval": "0", "freemem": "50560"}, "HWSTATUS": {"I2Cerr": "0", "Vcc": "5347"}, "RADIO_STATUS": {"noise": "67", "remrssi": "165", "rxerrors": "1", "remnoise": "102", "rssi": "168", "fixed": "0", "txbuf": "100"}, "STATUSTEXT": {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}, "SENSOR_OFFSETS": {"gyro_cal_z": "-0.00839027762413", "gyro_cal_y": "0.0374411121011", "gyro_cal_x": "0.0149708716199", "raw_temp": "4303", "mag_ofs_z": "22", "mag_ofs_x": "17", "mag_ofs_y": "-92", "accel_cal_y": "-0.240667924285", "raw_press": "101164", "accel_cal_x": "0.168486863375", "mag_declination": "0.0", "accel_cal_z": "-0.727041959763"}, "SYS_STATUS": {"onboard_control_sensors_present": "6421551", "load": "196", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "5", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22667"}, "RAW_IMU": {"xgyro": "0", "zmag": "313", "ygyro": "1", "xmag": "-314", "zacc": "-996", "xacc": "-32", "yacc": "35", "zgyro": "3", "ymag": "-3", "time_usec": "1096051719"}, "GLOBAL_POSITION_INT": {"vx": "0", "lon": "0", "time_boot_ms": "1098770", "hdg": "18087", "relative_alt": "6960", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}, "AHRS": {"error_rp": "0.00253740977496", "error_yaw": "0.011108269915", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.0324638523161", "omegaIx": "0.0177367571741", "omegaIz": "-0.00846756901592"}, "POWER_STATUS": {"Vcc": "5346", "flags": "37", "Vservo": "43"}, "PARAM_VALUE": {"param_count": "417", "param_index": "73", "param_value": "1100.0", "param_type": "4", "param_id": "RC4_MIN"}, "SYSTEM_TIME": {"time_unix_usec": "0", "time_boot_ms": "1098750"}, "SERVO_OUTPUT_RAW": {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "1096051843", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}, "RADIO": {"noise": "67", "remrssi": "165", "rxerrors": "1", "remnoise": "102", "rssi": "168", "fixed": "0", "txbuf": "100"}, "RC_CHANNELS_RAW": {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1521", "time_boot_ms": "1098750", "chan1_raw": "1520", "chan5_raw": "1520", "chan3_raw": "1017", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1520", "port": "0"}}
+ATTITUDE        : {"pitchspeed": "0.0013861656189", "yaw": "-3.12646150589", "rollspeed": "-0.000575534999371", "time_boot_ms": "1098830", "pitch": "-0.00455742049962", "yawspeed": "0.00294274417683", "roll": "-0.0591513067484"}
+HEARTBEAT       : {"custom_mode": "16", "system_status": "3", "base_mode": "89", "autopilot": "3", "type": "2", "mavlink_version": "3"}
+MISSION_CURRENT : {"seq": "0"}
+SCALED_PRESSURE : {"press_abs": "1011.65136719", "time_boot_ms": "1098750", "temperature": "4303", "press_diff": "-0.8053124547"}
+GPS_RAW_INT     : {"fix_type": "1", "cog": "0", "epv": "65535", "lon": "0", "time_usec": "0", "eph": "9999", "satellites_visible": "0", "lat": "0", "alt": "-17000", "vel": "0"}
+SCALED_IMU2     : {"xgyro": "-38", "zmag": "355", "ygyro": "62", "xmag": "-204", "zacc": "-1011", "time_boot_ms": "1098750", "yacc": "26", "zgyro": "14", "ymag": "-34", "xacc": "-26"}
+NAV_CONTROLLER_OUTPUT : {"wp_dist": "0", "nav_pitch": "0.0", "target_bearing": "0", "nav_roll": "0.0", "aspd_error": "0.0", "alt_error": "0.0", "xtrack_error": "0.0", "nav_bearing": "180"}
+VFR_HUD         : {"throttle": "0", "groundspeed": "0.0", "airspeed": "0.0", "heading": "180", "alt": "6.96000003815", "climb": "0.0"}
+MEMINFO         : {"brkval": "0", "freemem": "50560"}
+HWSTATUS        : {"I2Cerr": "0", "Vcc": "5347"}
+RADIO_STATUS    : {"noise": "67", "remrssi": "165", "rxerrors": "1", "remnoise": "102", "rssi": "168", "fixed": "0", "txbuf": "100"}
+STATUSTEXT      : {"text": "PX4v2 00480024 3034510A 37383933", "severity": "1"}
+SENSOR_OFFSETS  : {"gyro_cal_z": "-0.00839027762413", "gyro_cal_y": "0.0374411121011", "gyro_cal_x": "0.0149708716199", "raw_temp": "4303", "mag_ofs_z": "22", "mag_ofs_x": "17", "mag_ofs_y": "-92", "accel_cal_y": "-0.240667924285", "raw_press": "101164", "accel_cal_x": "0.168486863375", "mag_declination": "0.0", "accel_cal_z": "-0.727041959763"}
+SYS_STATUS      : {"onboard_control_sensors_present": "6421551", "load": "196", "battery_remaining": "99", "errors_count4": "0", "drop_rate_comm": "0", "errors_count2": "0", "errors_count3": "0", "errors_comm": "0", "current_battery": "5", "errors_count1": "0", "onboard_control_sensors_health": "6421551", "onboard_control_sensors_enabled": "6421551", "voltage_battery": "22667"}
+RAW_IMU         : {"xgyro": "0", "zmag": "313", "ygyro": "1", "xmag": "-314", "zacc": "-996", "xacc": "-32", "yacc": "35", "zgyro": "3", "ymag": "-3", "time_usec": "1096051719"}
+GLOBAL_POSITION_INT : {"vx": "0", "lon": "0", "time_boot_ms": "1098770", "hdg": "18087", "relative_alt": "6960", "lat": "0", "vy": "0", "alt": "-17000", "vz": "0"}
+AHRS            : {"error_rp": "0.00253740977496", "error_yaw": "0.011108269915", "renorm_val": "0.0", "accel_weight": "0.0", "omegaIy": "-0.0324638523161", "omegaIx": "0.0177367571741", "omegaIz": "-0.00846756901592"}
+POWER_STATUS    : {"Vcc": "5346", "flags": "37", "Vservo": "43"}
+PARAM_VALUE     : {"param_count": "417", "param_index": "73", "param_value": "1100.0", "param_type": "4", "param_id": "RC4_MIN"}
+SYSTEM_TIME     : {"time_unix_usec": "0", "time_boot_ms": "1098750"}
+SERVO_OUTPUT_RAW : {"servo4_raw": "1100", "servo2_raw": "1100", "servo6_raw": "0", "time_usec": "1096051843", "servo1_raw": "1100", "servo8_raw": "0", "servo5_raw": "0", "servo3_raw": "1100", "port": "0", "servo7_raw": "0"}
+RADIO           : {"noise": "67", "remrssi": "165", "rxerrors": "1", "remnoise": "102", "rssi": "168", "fixed": "0", "txbuf": "100"}
+RC_CHANNELS_RAW : {"chan4_raw": "1520", "chan2_raw": "1520", "chan6_raw": "1521", "time_boot_ms": "1098750", "chan1_raw": "1520", "chan5_raw": "1520", "chan3_raw": "1017", "rssi": "0", "chan7_raw": "1520", "chan8_raw": "1520", "port": "0"}
+
+

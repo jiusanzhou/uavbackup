@@ -1,0 +1,9 @@
+{
+  "name": "socket-chat",
+  "version": "0.0.1",
+  "description": "Get the data from beaglebone black...",
+  "dependencies"" {
+    "express",
+    "socket.io"
+  }
+}

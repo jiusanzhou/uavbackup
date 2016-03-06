@@ -1,0 +1,8 @@
+{
+  "name": "Sonar",
+  "version": "0.0.1",
+  "description": "Measure distance",
+  "dependencies"" {
+    "bonescript",
+  }
+}
